@@ -1,3 +1,6 @@
+from graphics import *
+from random import choice
+
 def get_int(window, entry_obj, error_msg):
     while True:
         window.getMouse()
@@ -30,17 +33,12 @@ def get_n_points(window, msg, n):
 def x_values(points_list):
     return [i.getX() for x in points_list]
 
-def y_values(points_list):
-    return [i.getX() for x in points_list]
 
 def tuples(points_list):
     tuples = []
     for point in points_list:
         tuples.append((point.getX(),point.getY()))
     return tuples
-
-from graphics import *
-from random import choice
 
 def sort_tuples_x(points_list):
     list_ = tuples(points_list)
