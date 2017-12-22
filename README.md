@@ -11,6 +11,8 @@ Simulation - Random points decided by computer
 
 Inpired by M. de Berg, M. van Krevald, M. Overmars, & O. Schwarzkopf's Computational Geometry - Algorithms and Applications
 
+In simple terms, this function checks combinations of 3 consecutive points and tests whether three consecutive points make a right turn. If not, the middle one is not part of the hull. (de Berg)
+
 Pseudocode (de Berg)
 
     CONVEXHULL(P)
@@ -32,3 +34,5 @@ Pseudocode (de Berg)
     14.    return L
     
 After running this function on a set of inputted or random points, for all of the points on the hull, the program colors them blue and draws lines between them.
+
+This function uses an incremental algorithm to compute the result in O(n log n) time.
