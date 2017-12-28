@@ -5,7 +5,7 @@ Graphical Convex Hull Program
 
 Inpired by M. de Berg, M. van Krevald, M. Overmars, & O. Schwarzkopf's Computational Geometry - Algorithms and Applications
 
-In simple terms, this function checks combinations of three consecutive points and tests whether those points make a right turn. If not, the middle one is not part of the hull. (de Berg)
+This function checks combinations of three consecutive points and tests whether those points make a right turn. If not, the middle one is not part of the hull. (de Berg)
 
 Pseudocode (de Berg)
 
